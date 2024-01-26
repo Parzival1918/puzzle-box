@@ -1,0 +1,8 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: pages-source/intro
+chapters:
+- file: pages-source/about
+- file: pages-source/the_team
