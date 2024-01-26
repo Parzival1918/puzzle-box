@@ -3,7 +3,7 @@
 
 title: Puzzle Box
 author: Milo, Reef, Pedro
-logo: imgs/icon.png
+logo: imgs/logo.svg
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
