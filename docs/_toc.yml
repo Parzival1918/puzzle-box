@@ -5,4 +5,5 @@ format: jb-book
 root: pages-source/intro
 chapters:
 - file: pages-source/about
+- file: pages-source/question_cards
 - file: pages-source/the_team
