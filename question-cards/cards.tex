@@ -7,6 +7,7 @@
 }
 \usepackage{tcolorbox}
 \usepackage{multicol}
+\usepackage{enumitem}
 
 \newtcolorbox{question}[1][Title]{
 	colback=blue!10,
@@ -27,7 +28,7 @@
 	\begin{question}[Flexible or not?]
   		Order the following materials from \textbf{most flexible} to \textbf{least}
   		
-  		\begin{enumerate}
+  		\begin{enumerate}[font=\bfseries]
   		\centering
   			\item Paper
   			\item Glass
@@ -39,7 +40,7 @@
   		Which sentences are \textbf{correct}?
   		
   		\begin{multicols}{2}
-  		\begin{enumerate}
+  		\begin{enumerate}[font=\bfseries]
   			\item Glass is made from sand.
   			\item All metals are magnetic.
   			\item Steel is harder than diamond.
@@ -54,7 +55,31 @@
   		\end{multicols}
 	\end{question}
 	\newpage
-	\begin{question}[My title]
-  		This is a \textbf{tcolorbox}.
+	\begin{question}[Higher or lower?]
+  		Is the melting point of ...... \textbf{higher} or \textbf{lower} than aluminium?
+  		\begin{itemize}
+  		\centering
+  			\item Plastic
+  			\item Steel
+  			\item Ice
+  		\end{itemize}
+	\end{question}
+	\begin{question}[Biodegradable?]
+  		How long would a plastic bottle take to decompose?
+  		\begin{itemize}
+  		\centering
+  			\item 1 year
+  			\item 10 years
+  			\item 250 years
+  			\item 450 years
+  		\end{itemize}
 	\end{question}
 \end{document}
+
+
+
+
+
+
+
+
