@@ -6,11 +6,55 @@
 	a4paper
 }
 \usepackage{tcolorbox}
+\usepackage{multicol}
+
+\newtcolorbox{question}[1][Title]{
+	colback=blue!10,
+	fonttitle=\Large\bfseries,
+	title={#1},
+	height=10cm,
+	boxrule=3pt,
+	fontupper=\large,
+	left=1cm,
+	right=1cm,
+	top=0.6cm,
+	toptitle=0.2cm,
+	bottomtitle=0.2cm
+}
 
 \begin{document}
 	\pagestyle{empty}
-	\begin{tcolorbox}[after skip balanced=1cm,
-    colframe=red!50!white]
-  This is a \textbf{tcolorbox}.
-\end{tcolorbox}
+	\begin{question}[Flexible or not?]
+  		Order the following materials from \textbf{most flexible} to \textbf{least}
+  		
+  		\begin{enumerate}
+  		\centering
+  			\item Paper
+  			\item Glass
+  			\item Metal
+  			\item Rubber
+  		\end{enumerate}
+	\end{question}
+	\begin{question}[True or False?]
+  		Which sentences are \textbf{correct}?
+  		
+  		\begin{multicols}{2}
+  		\begin{enumerate}
+  			\item Glass is made from sand.
+  			\item All metals are magnetic.
+  			\item Steel is harder than diamond.
+  			\item Pencils and diamond are made from the same material.
+  			\item Spider silk is one of the strongest materials in the world.
+  			\item Metals can be used in the human body.
+  			\item Metals are transparent.
+  			\item Plastics are made from oil.
+  			\item You can melt wood.
+  			\item Steel doesn’t float.
+  		\end{enumerate}
+  		\end{multicols}
+	\end{question}
+	\newpage
+	\begin{question}[My title]
+  		This is a \textbf{tcolorbox}.
+	\end{question}
 \end{document}
