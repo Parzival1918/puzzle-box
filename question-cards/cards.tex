@@ -9,10 +9,10 @@
 \usepackage{multicol}
 \usepackage{enumitem}
 
-\newtcolorbox{question}[1][Title]{
+\newtcolorbox{question}[2][Title]{
 	colback=blue!10,
 	fonttitle=\Large\bfseries,
-	title={#1},
+	title={#2},
 	height=10cm,
 	boxrule=3pt,
 	fontupper=\large,
@@ -20,12 +20,13 @@
 	right=1cm,
 	top=0.6cm,
 	toptitle=0.2cm,
-	bottomtitle=0.2cm
+	bottomtitle=0.2cm,
+	#1
 }
 
 \begin{document}
 	\pagestyle{empty}
-	\begin{question}[Flexible or not?]
+	\begin{question}[colback=red!10]{Flexible or not?}
   		Order the following materials from \textbf{most flexible} to \textbf{least}
   		
   		\begin{enumerate}[font=\bfseries]
@@ -36,7 +37,7 @@
   			\item Rubber
   		\end{enumerate}
 	\end{question}
-	\begin{question}[True or False?]
+	\begin{question}[]{True or False?}
   		Which sentences are \textbf{correct}?
   		
   		\begin{multicols}{2}
@@ -55,7 +56,7 @@
   		\end{multicols}
 	\end{question}
 	\newpage
-	\begin{question}[Higher or lower?]
+	\begin{question}[colback=green!10]{Higher or lower?}
   		Is the melting point of ...... \textbf{higher} or \textbf{lower} than aluminium?
   		\begin{itemize}
   		\centering
@@ -64,7 +65,7 @@
   			\item Ice
   		\end{itemize}
 	\end{question}
-	\begin{question}[Biodegradable?]
+	\begin{question}[colback=cyan!10]{Biodegradable?}
   		How long would a plastic bottle take to decompose?
   		\begin{itemize}
   		\centering
@@ -74,6 +75,11 @@
   			\item 450 years
   		\end{itemize}
 	\end{question}
+	\newpage
+	\begin{question}[]{}
+		
+	\end{question}
+
 \end{document}
 
 
