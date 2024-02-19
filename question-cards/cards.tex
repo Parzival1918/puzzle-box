@@ -5,6 +5,7 @@
 	margin=1cm,
 	a4paper
 }
+\usepackage[dvipsnames]{xcolor}
 \usepackage{tcolorbox}
 \usepackage{multicol}
 \usepackage{enumitem}
@@ -58,12 +59,13 @@
 	\newpage
 	\begin{question}[colback=green!10]{Higher or lower?}
   		Is the melting point of ...... \textbf{higher} or \textbf{lower} than aluminium?
-  		\begin{itemize}
+  		\begin{enumerate}
   		\centering
-  			\item Plastic
+  			\item Titanium
   			\item Steel
   			\item Ice
-  		\end{itemize}
+  			\item Glass
+  		\end{enumerate}
 	\end{question}
 	\begin{question}[colback=cyan!10]{Biodegradable?}
   		How long would a plastic bottle take to decompose?
@@ -76,10 +78,26 @@
   		\end{itemize}
 	\end{question}
 	\newpage
-	\begin{question}[]{}
-		
+	\begin{question}[]{Transparent?}
+		Which material is transparent, allowing light to go through it easily?
+		\begin{itemize}
+  		\centering
+  			\item Metal
+  			\item Wood
+  			\item Glass
+  			\item Plastic
+  		\end{itemize}
 	\end{question}
-
+	\begin{question}[colback=orange!10]{When were they discovered?}
+		Can you order these materials by the year that they were discovered?
+		\begin{enumerate}
+  		\centering
+  			\item Graphene % 2000s
+  			\item Steel % many many years ago lol
+  			\item Man-made plastic % early 1900s, bakelite
+  			\item Structure of DNA % mid 1900s
+  		\end{enumerate}
+	\end{question}
 \end{document}
 
 
