@@ -1,6 +1,6 @@
 # Question cards
 
-> Question cards and their answers, we can also add a pdf that can be downloaded and printed with the question cards layed out nice
+Here are the Materials Science and Engineering related questions we used for our box.
 
 `````{admonition} Question 1
 :class: tip
