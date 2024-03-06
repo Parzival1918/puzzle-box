@@ -1,6 +1,6 @@
 # Puzzle Box
 
-:::{image} ../imgs/box.gif
+:::{image} ../imgs/box-resize.gif
 :alt: box gif
 :align: center
 :height: 400px
