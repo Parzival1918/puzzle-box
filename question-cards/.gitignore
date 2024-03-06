@@ -1,2 +1,5 @@
 .texpadtmp
-*.pdf
+*.log
+*.fls
+*.aux
+*.fdb_latexmk
