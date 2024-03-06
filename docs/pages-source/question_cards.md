@@ -1,6 +1,6 @@
 # Question cards
 
-Here are the Materials Science and Engineering related questions we used for our box.
+Here are the Materials Science and Engineering related questions we used for our box. You can also download a PDF file with the question cards formatted nicely [here](../../question-cards/cards.pdf). If you want to format the question cards the same way you can use the LaTeX file we used as a template, the file can be found [here](https://github.com/Parzival1918/puzzle-box/blob/main/question-cards/cards.tex).
 
 ::::{admonition} Flexible or not?
 :class: tip
@@ -115,6 +115,28 @@ Can you order these materials by the year that they were discovered?
 Order is: 2 3 4 1.
 
 Use a 4 digit combination lock.
+
+:::
+
+::::
+::::{admonition} Stronger or weaker?
+:class: tip
+
+Is ...... **stronger** or **weaker** than aluminium in tension?
+
+1. Carbon fibres
+2. Spider silk
+3. Concrete
+4. Human hair
+
+:::{dropdown} Answer
+
+1. Higher
+2. Higher
+3. Lower
+4. Higher
+
+Use a direction lock.
 
 :::
 

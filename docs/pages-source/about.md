@@ -1,5 +1,12 @@
 # About the puzzle box
 
+:::{image} ../imgs/box.jpg
+:alt: box image
+:align: center
+:height: 400px
+:class: mb-2
+:::
+
 The puzzle box has been developed by 3 students of the University of Sheffield doing the MAT4445 module.
 
 The objective of this project was to create a Materials Science and Engineering outreach experience targeted to young students. By making it fun and engaging we hope to inspire them to pursue careers in the wonderful world of materials.
