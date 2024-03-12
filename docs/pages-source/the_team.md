@@ -14,7 +14,7 @@ Reef came up with the initial puzzle box idea and wrote down some of the questio
 
 :::{card} Pedro Juan Royo
 
-I took care of setting up the website and writing down some questions. I was also in charge of the question cards, which I of course formatted in a nice way using LaTeX.
+Pedro took care of setting up the website and writing down some questions. He was also in charge of the question cards, which were of course formatted in a nice way using LaTeX.
 
 :::
 
